@@ -4,3 +4,11 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 # Papers
+
+## ML Integrated Control
+
+* [Fully autonomous tuning of a spin qubit](https://www.nature.com/articles/s41928-025-01562-4): 
+
+
+## Classic Control
+

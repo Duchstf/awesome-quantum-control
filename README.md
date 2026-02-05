@@ -7,11 +7,16 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 
 ## ML Integrated Control
 
+* [Reinforcement Learning Control of Quantum Error Correction](https://arxiv.org/pdf/2511.08493): Reinforcement learning framework that repurposes error detection events to continuously calibrate quantum control parameters without halting computation. 
+  
 * [[arXiv](https://arxiv.org/abs/2402.03931)] [Fully autonomous tuning of a spin qubit](https://www.nature.com/articles/s41928-025-01562-4):  Autonomous tuning of a semiconductor qubit, from a grounded device to Rabi oscillations, integrates deep learning, Bayesian optimization and computer vision techniques. Demonstrate this automation in a germanium–silicon core–shell nanowire device.
 
 * [Reinforcement Learning for Quantum Technology](https://arxiv.org/pdf/2601.18953): A review of reinforcement learning for quantum control, covering major applications, experiments, and open challenges.
 
 ## Classic Control
+
+# Repositories
+* [Model-Free Quantum Control with Reinforcement Learning](https://github.com/v-sivak/quantum-control-rl?tab=readme-ov-file)
 
 # Concepts
 This section mainly explains the terminology in an intuituive way for learning purposes.

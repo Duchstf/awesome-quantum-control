@@ -12,3 +12,8 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 
 ## Classic Control
 
+# Concepts
+This section mainly explains the terminology in an intuituive way for learning purposes.
+
+* **Rabi Oscillations:** This is the "heartbeat" of a qubit. If you graph the data, it looks like a wave going up and down. It proves you can rotate the qubit from 0 to 1 and back again smoothly. Rabi oscillations show that you can continuously and precisely rotate a qubit’s state. If you see this clean wave, your qubit is controllable.
+* **Bayesian Optimization:** Imagine you are looking for the highest peak on a foggy mountain range. Instead of walking everywhere (which takes too long), you check a few spots, and then use math to predict where the peak likely is based on those checks. The algorithm uses this to find the best voltage settings efficiently. Bayesian optimization finds the best settings with very few tests by predicting where the maximum likely is instead of searching everywhere.

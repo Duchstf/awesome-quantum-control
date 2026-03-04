@@ -15,7 +15,7 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 
 ## Classic Control
 
-*  [Silicon spin qubit noise characterization using real-time feedback protocols and wavelet analysis ]
+*  [Silicon spin qubit noise characterization using real-time feedback protocols and wavelet analysis](https://pubs.aip.org/aip/apl/article/124/11/114003/3272522/Silicon-spin-qubit-noise-characterization-using)
 * [Real-time two-axis control of a spin qubit](https://www.nature.com/articles/s41467-024-45857-0): FPGA-based control for full Hamiltonian estimation to dynamically stabilize and optimize qubit performance.
 * [Suppressing qubit dephasing using real-time Hamiltonian estimation](https://www.nature.com/articles/ncomms6156): Improve the coherent time of singlet-triplet qubit formed by two gate-defined lateral quantum dots (QDs) in a GaAs/AlGaAs heterostructure by using FPGA-based Hamiltonian parameter estimation. 
 * [Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits](https://journals.aps.org/prx/pdf/10.1103/gk1b-stl3): FPGA-based controller (Bayesian Estimation) that accurately tracks the relaxation time of superconducting qubits and reports that the relaxation time switches orders of magnitude within milisecond timescales as opposed to hours.

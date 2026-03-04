@@ -16,7 +16,7 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 ## Classic Control
 
 * [Suppressing qubit dephasing using real-time Hamiltonian estimation](https://www.nature.com/articles/ncomms6156): Improve the coherent time of singlet-triplet qubit formed by two gate-defined lateral quantum dots (QDs) in a GaAs/AlGaAs heterostructure by using FPGA-based Hamiltonian parameter estimation. 
-* [Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits](https://journals.aps.org/prx/pdf/10.1103/gk1b-stl3): 
+* [Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits](https://journals.aps.org/prx/pdf/10.1103/gk1b-stl3): FPGA-based controller (Bayesian Estimation) that accurately tracks the relaxation time of superconducting qubits and reports that the relaxation time switches orders of magnitude within milisecond timescales as opposed to hours. 
 
 # Repositories
 * [Model-Free Quantum Control with Reinforcement Learning](https://github.com/v-sivak/quantum-control-rl?tab=readme-ov-file)

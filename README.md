@@ -15,6 +15,8 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 
 ## Classic Control
 
+* [Suppressing qubit dephasing using real-time Hamiltonian estimation](https://www.nature.com/articles/ncomms6156): 
+
 # Repositories
 * [Model-Free Quantum Control with Reinforcement Learning](https://github.com/v-sivak/quantum-control-rl?tab=readme-ov-file)
 

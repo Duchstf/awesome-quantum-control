@@ -7,11 +7,12 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 
 ## ML Integrated Control
 
-* [ML-Powered FPGA-based Real-Time Quantum State Discrimination Enabling Mid-circuit Measurements](https://arxiv.org/abs/2406.18807)
-* [Realizing a deep reinforcement learning agent for real-time quantum feedback](https://www.nature.com/articles/s41467-023-42901-3): RL-agent for sub-microsecond latency control to realize the full potential of quantum technologies, which requires precise real-time control on time scales much shorter than the coherence time.
-* [Reinforcement Learning Control of Quantum Error Correction](https://arxiv.org/pdf/2511.08493): Reinforcement learning framework that repurposes error detection events to continuously calibrate quantum control parameters without halting computation. 
-* [[arXiv](https://arxiv.org/abs/2402.03931)] [Fully autonomous tuning of a spin qubit](https://www.nature.com/articles/s41928-025-01562-4):  Autonomous tuning of a semiconductor qubit, from a grounded device to Rabi oscillations, integrates deep learning, Bayesian optimization and computer vision techniques. Demonstrate this automation in a germanium–silicon core–shell nanowire device.
-* [Reinforcement Learning for Quantum Technology](https://arxiv.org/pdf/2601.18953): A review of reinforcement learning for quantum control, covering major applications, experiments, and open challenges.
+* [ML-Powered FPGA-based Real-Time Quantum State Discrimination Enabling Mid-circuit Measurements](https://arxiv.org/abs/2406.18807) - **Berkeley**: QubiCML, a field-programmable
+gate array (FPGA) based system for real-time qubit state discrimination enabling mid-circuit measurement—the ability to measure the qubit state at the electronic control circuit before/without transferring quantum data to a host computer. 
+* [Realizing a deep reinforcement learning agent for real-time quantum feedback](https://www.nature.com/articles/s41467-023-42901-3) - **ETH**: RL-agent for sub-microsecond latency control to realize the full potential of quantum technologies, which requires precise real-time control on time scales much shorter than the coherence time.
+* [Reinforcement Learning Control of Quantum Error Correction](https://arxiv.org/pdf/2511.08493) - **Google Quantum AI/DeepMind**: Reinforcement learning framework that repurposes error detection events to continuously calibrate quantum control parameters without halting computation. 
+* [[arXiv](https://arxiv.org/abs/2402.03931)] [Fully autonomous tuning of a spin qubit](https://www.nature.com/articles/s41928-025-01562-4) - **ETH**:  Autonomous tuning of a semiconductor qubit, from a grounded device to Rabi oscillations, integrates deep learning, Bayesian optimization and computer vision techniques. Demonstrate this automation in a germanium–silicon core–shell nanowire device.
+* [Reinforcement Learning for Quantum Technology](https://arxiv.org/pdf/2601.18953) - **Max Planck Institute**: A review of reinforcement learning for quantum control, covering major applications, experiments, and open challenges.
 
 ## Classic Control
 

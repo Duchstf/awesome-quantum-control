@@ -16,7 +16,7 @@ gate array (FPGA) based system for real-time qubit state discrimination enabling
 
 ## Classic Control
 
-* [Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits](https://arxiv.org/pdf/2602.11912) - **Uni of Copenhagen**: Closed-loop on-FPGA calibration protocol in ms latency on Quantum Machines. 
+* [Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits](https://arxiv.org/pdf/2602.11912) - **Uni of Copenhagen**: Closed-loop on-FPGA calibration protocol in ms latency on Quantum Machines. Many techniques enssembled together in order to enable the automatic on-chip loop. 
 *  [Silicon spin qubit noise characterization using real-time feedback protocols and wavelet analysis](https://pubs.aip.org/aip/apl/article/124/11/114003/3272522/Silicon-spin-qubit-noise-characterization-using) - **Applied Physics Letters**: benefits and drawbacks of qubit parameter feedback, as feedback related overhead increases
 * [Real-time two-axis control of a spin qubit](https://www.nature.com/articles/s41467-024-45857-0): FPGA-based control for full Hamiltonian estimation to dynamically stabilize and optimize qubit performance.
 * [Suppressing qubit dephasing using real-time Hamiltonian estimation](https://www.nature.com/articles/ncomms6156): Improve the coherent time of singlet-triplet qubit formed by two gate-defined lateral quantum dots (QDs) in a GaAs/AlGaAs heterostructure by using FPGA-based Hamiltonian parameter estimation. 

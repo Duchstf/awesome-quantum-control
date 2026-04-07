@@ -23,6 +23,10 @@ gate array (FPGA) based system for real-time qubit state discrimination enabling
 * [Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits](https://journals.aps.org/prx/pdf/10.1103/gk1b-stl3) - **Fabrizio Berritta (Uni of Copenhagen)**: FPGA-based controller (Bayesian Estimation) that accurately tracks the relaxation time of superconducting qubits and reports that the relaxation time switches orders of magnitude within milisecond timescales as opposed to hours.
 * [Robust online Hamiltonian learning](https://iopscience.iop.org/article/10.1088/1367-2630/14/10/103013): Combining Monte Carlo and Bayesian inference for online estimation dynamical parameters of a quantum system.
 
+## ML4Quantum
+
+* [Reconstructing Quantum Dot Charge Stability Diagrams with Diffusion Models](https://arxiv.org/pdf/2603.26432) - **Vinicius Hernandes et al, Delt**: Diffusion models to accurately measure charge stability diagrams from sparse measurement. 
+
 ## Quantum Error Correction
 
 * [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y) - **Google Quantum AI**: Distance-7 code and a distance-5 code integrated with a real-time decoder. 

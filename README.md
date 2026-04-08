@@ -29,7 +29,12 @@ gate array (FPGA) based system for real-time qubit state discrimination enabling
 
 ## Quantum Error Correction
 
-* [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y) - **Google Quantum AI**: Distance-7 code and a distance-5 code integrated with a real-time decoder. 
+* [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y) - **Google Quantum AI**: Distance-7 code and a distance-5 code integrated with a real-time decoder.
+
+## General Quantum Technologies
+
+* [A two-dimensional 10-qubit array in germanium with robust
+and localised qubit control](https://arxiv.org/pdf/2412.16044) - **Delt**: Two-dimensional 10-spin qubit array. 
 
 ## Reviews
 

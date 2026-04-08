@@ -25,6 +25,8 @@ gate array (FPGA) based system for real-time qubit state discrimination enabling
 
 ## ML4Quantum
 
+* [A scalable and real-time neural decoder for topological quantum codes](https://arxiv.org/pdf/2512.07737): AlphaQubit 2, a neural-network decoder that achieves near-optimal
+logical error rates for both surface and color codes at scale under realistic noise. 
 * [Reconstructing Quantum Dot Charge Stability Diagrams with Diffusion Models](https://arxiv.org/pdf/2603.26432) - **Vinicius Hernandes et al, Delt**: Diffusion models to accurately measure charge stability diagrams from sparse measurement. 
 
 ## Quantum Error Correction

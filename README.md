@@ -31,6 +31,8 @@ logical error rates for both surface and color codes at scale under realistic no
 
 ## Quantum Error Correction
 
+* [Local active error correction from simulated confinement](https://arxiv.org/pdf/2510.08056) - **Ethan Lake (Berkeley):** Studies the problem of performing real-time
+decoding on topological stabilizer codes in a way where all operations—both classical and quantum—are geometrically local.   
 * [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y) - **Google Quantum AI**: Distance-7 code and a distance-5 code integrated with a real-time decoder.
 
 ## General Quantum Technologies

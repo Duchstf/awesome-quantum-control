@@ -5,6 +5,17 @@ A curated list of libraries, projects, tutorials, papers, and other resources on
 
 # Papers
 
+
+## Quantum Error Correction
+
+* [FPGA-tailored algorithms for real-time decoding of quantum LDPC codes](https://arxiv.org/pdf/2511.21660) - IBM Quantum: We analyze FPGA-tailored versions of three decoder classes for quantum low-density parity-check (qLDPC) codes: message passing, ordered statistics, and clustering. 
+* [A scalable and real-time neural decoder for topological quantum codes](https://arxiv.org/pdf/2512.07737): AlphaQubit 2, a neural-network decoder that achieves near-optimal logical error rates for both surface and color codes at scale under realistic noise. 
+* [Local Clustering Decoder as a fast and adaptive hardware decoder for the surface code](https://arxiv.org/pdf/2411.10343)-**Riverlane, Cambridge, UK**: Local Clustering Decoder as a solution that simultaneously achieves the accuracy and speed requirements of a real-time decoding system. Our decoder is implemented.
+on FPGAs and exploits hardware parallelism to keep pace with the fastest qubit types. 
+* [Local active error correction from simulated confinement](https://arxiv.org/pdf/2510.08056) - **Ethan Lake (Berkeley):** Studies the problem of performing real-time
+decoding on topological stabilizer codes in a way where all operations—both classical and quantum—are geometrically local.   
+* [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y) - **Google Quantum AI**: Distance-7 code and a distance-5 code integrated with a real-time decoder.
+
 ## Calibration
 
 ### ML Integrated Control
@@ -25,40 +36,12 @@ gate array (FPGA) based system for real-time qubit state discrimination enabling
 * [Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits](https://journals.aps.org/prx/pdf/10.1103/gk1b-stl3) - **Fabrizio Berritta (Uni of Copenhagen)**: FPGA-based controller (Bayesian Estimation) that accurately tracks the relaxation time of superconducting qubits and reports that the relaxation time switches orders of magnitude within milisecond timescales as opposed to hours.
 * [Robust online Hamiltonian learning](https://iopscience.iop.org/article/10.1088/1367-2630/14/10/103013): Combining Monte Carlo and Bayesian inference for online estimation dynamical parameters of a quantum system.
 
-## Quantum Error Correction
-
-* [FPGA-tailored algorithms for real-time decoding of quantum LDPC codes](https://arxiv.org/pdf/2511.21660) - IBM Quantum: We analyze FPGA-tailored versions of three decoder classes for quantum low-density parity-check (qLDPC) codes: message passing, ordered statistics, and clustering. 
-* [A scalable and real-time neural decoder for topological quantum codes](https://arxiv.org/pdf/2512.07737): AlphaQubit 2, a neural-network decoder that achieves near-optimal logical error rates for both surface and color codes at scale under realistic noise. 
-* [Local Clustering Decoder as a fast and adaptive hardware decoder for the surface code](https://arxiv.org/pdf/2411.10343)-**Riverlane, Cambridge, UK**: Local Clustering Decoder as a solution that simultaneously achieves the accuracy and speed requirements of a real-time decoding system. Our decoder is implemented.
-on FPGAs and exploits hardware parallelism to keep pace with the fastest qubit types. 
-* [Local active error correction from simulated confinement](https://arxiv.org/pdf/2510.08056) - **Ethan Lake (Berkeley):** Studies the problem of performing real-time
-decoding on topological stabilizer codes in a way where all operations—both classical and quantum—are geometrically local.   
-* [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y) - **Google Quantum AI**: Distance-7 code and a distance-5 code integrated with a real-time decoder.
-
-## Generic AI4Quantum
+## MISC
 
 * [Reconstructing Quantum Dot Charge Stability Diagrams with Diffusion Models](https://arxiv.org/pdf/2603.26432) - **Vinicius Hernandes et al, Delt**: Diffusion models to accurately measure charge stability diagrams from sparse measurement.
-  
-## General Quantum Technologies
-
 * [A two-dimensional 10-qubit array in germanium with robust
 and localised qubit control](https://arxiv.org/pdf/2412.16044) - **Delt**: Two-dimensional 10-spin qubit array.
-
-
-## Reviews
-
 * [Learning Quantum Systems](https://arxiv.org/pdf/2207.00298): Theoretical proposals and successful implementations
 across different multiple-qubit architectures. 
-
-## Repositories
 * [Model-Free Quantum Control with Reinforcement Learning](https://github.com/v-sivak/quantum-control-rl?tab=readme-ov-file)
-
-## Videos
 * [Transversal Algorithmic Fault Tolerance for Low-Overhead Quantum Computing](https://www.youtube.com/watch?v=28zUBOFXFcE) - Harry Zhou, MIT. 
-
-
-## Concepts
-This section mainly explains the terminology in an intuituive way for learning purposes.
-
-* **Rabi Oscillations:** This is the "heartbeat" of a qubit. If you graph the data, it looks like a wave going up and down. It proves you can rotate the qubit from 0 to 1 and back again smoothly. Rabi oscillations show that you can continuously and precisely rotate a qubit’s state. If you see this clean wave, your qubit is controllable.
-* **Bayesian Optimization:** Imagine you are looking for the highest peak on a foggy mountain range. Instead of walking everywhere (which takes too long), you check a few spots, and then use math to predict where the peak likely is based on those checks. The algorithm uses this to find the best voltage settings efficiently. Bayesian optimization finds the best settings with very few tests by predicting where the maximum likely is instead of searching everywhere.

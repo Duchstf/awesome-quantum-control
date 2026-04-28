@@ -27,14 +27,8 @@ gate array (FPGA) based system for real-time qubit state discrimination enabling
 
 ## Quantum Error Correction
 
-### AI-based QEC
-
-* [A scalable and real-time neural decoder for topological quantum codes](https://arxiv.org/pdf/2512.07737): AlphaQubit 2, a neural-network decoder that achieves near-optimal
-logical error rates for both surface and color codes at scale under realistic noise. 
-
-
-### Classical QEC
-
+* [FPGA-tailored algorithms for real-time decoding of quantum LDPC codes](https://arxiv.org/pdf/2511.21660) - IBM Quantum: We analyze FPGA-tailored versions of three decoder classes for quantum low-density parity-check (qLDPC) codes: message passing, ordered statistics, and clustering. 
+* [A scalable and real-time neural decoder for topological quantum codes](https://arxiv.org/pdf/2512.07737): AlphaQubit 2, a neural-network decoder that achieves near-optimal logical error rates for both surface and color codes at scale under realistic noise. 
 * [Local Clustering Decoder as a fast and adaptive hardware decoder for the surface code](https://arxiv.org/pdf/2411.10343)-**Riverlane, Cambridge, UK**: Local Clustering Decoder as a solution that simultaneously achieves the accuracy and speed requirements of a real-time decoding system. Our decoder is implemented.
 on FPGAs and exploits hardware parallelism to keep pace with the fastest qubit types. 
 * [Local active error correction from simulated confinement](https://arxiv.org/pdf/2510.08056) - **Ethan Lake (Berkeley):** Studies the problem of performing real-time

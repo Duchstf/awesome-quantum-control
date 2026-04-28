@@ -59,6 +59,9 @@ across different multiple-qubit architectures.
 ## Repositories
 * [Model-Free Quantum Control with Reinforcement Learning](https://github.com/v-sivak/quantum-control-rl?tab=readme-ov-file)
 
+## Videos
+* [Transversal Algorithmic Fault Tolerance for Low-Overhead Quantum Computing](https://www.youtube.com/watch?v=28zUBOFXFcE) - Harry Zhou, MIT. 
+
 
 ## Concepts
 This section mainly explains the terminology in an intuituive way for learning purposes.
